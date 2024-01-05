@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #5C4031;
   color: #fff;
   padding: 1em 0;
   display: flex;
@@ -47,7 +47,9 @@ h1 {
   padding: 15px;
   transition: transform 0.3s ease-in-out;
 }
-
+.project-box.project1 {
+  background-image: url('../images/StudyGuide.jpeg');
+}
 .project-box:hover {
   transform: scale(1.05);
 }
@@ -71,12 +73,13 @@ section {
 }
 
 footer {
-  background-color: #333;
+  background-color: #5C4031;
   color: #fff;
   padding: 20px 0;
   text-align: center;
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
   align-items: center;
 }
 
